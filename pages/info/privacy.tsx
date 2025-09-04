@@ -2,8 +2,8 @@ import Section from "@/components/info/section";
 import Layout from "@/components/layout/layout"
 import { DocContent } from "@/types/docContent";
 
-const PrivacyPolicyPage=()=>{
-    const privacyPolicy:DocContent[] = [
+const PrivacyPage=()=>{
+    const privacy:DocContent[] = [
         {text:"ユーザーの個人情報管理には細心の注意を払い、以下に書かれた通りに扱います"},
         {text:"",title:"収集するデータ"},
         {
@@ -32,10 +32,10 @@ const PrivacyPolicyPage=()=>{
         <Layout>
             <div className="max-w-3xl mx-auto px-6 py-20">
                 <h1 className="text-3xl font-bold text-slate-950">プライバシーポリシー</h1>
-                {privacyPolicy.map((p,i)=><Section text={p.text} title={p.title} key={i} />)}
+                {privacy.map((p,i)=><Section text={p.text} title={p.title} key={i} />)}
             </div>
         </Layout>
     )
 }
 
-export default PrivacyPolicyPage;
+export default PrivacyPage;

@@ -10,7 +10,7 @@ const Footer = () => {
           <ul className="space-y-2">
             <li>
               <Link
-                href="/info/privacyPolicy"
+                href="/info/privacy"
                 className="hover:text-white transition"
               >
                 プライバシーポリシー
