@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // output: "export", // 静的エクスポートを有効化
+  output: "export", // 静的エクスポ/ートを有効化
   basePath: "/sutamon.site", // ← GitHub リポジトリ名に変更
   assetPrefix: "/sutamon.site/",
   images: {
