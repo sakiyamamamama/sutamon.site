@@ -32,9 +32,9 @@ const Footer = () => {
           <h2 className="text-sm font-semibold text-gray-400 uppercase mb-4">サポート</h2>
           <ul className="space-y-2">
             <li>
-              <a href="mailto:support@myapp.com" className="hover:text-white transition">
+              <Link href="/support/contact" className="hover:text-white transition">
                 お問い合わせ
-              </a>
+              </Link>
             </li>
           </ul>
         </section>

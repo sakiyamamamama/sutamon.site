@@ -1,4 +1,6 @@
 import Layout from "@/components/layout/layout";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -9,23 +11,23 @@ export default function Home() {
           <h1 className="text-4xl md:text-6xl font-bold mb-4">スタディモンスター</h1>
           <p className="text-lg md:text-2xl mb-6">勉強をモンスター育成に変える学習アプリ</p>
           <div className="flex gap-4">
-            <a
+            <Link
               href="#"
               className="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100"
             >
               App Store
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100"
             >
               Google Play
-            </a>
+            </Link>
           </div>
           {/* スマホ画面イメージ */}
           <div className="mt-12">
-            <img
-              src="/icon.png"
+            <Image
+              src="/sutamon.site/icon.png"
               alt="アプリ画面"
               className="max-w-xs rounded-xl shadow-lg"
             />
