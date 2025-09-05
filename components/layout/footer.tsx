@@ -43,7 +43,7 @@ const Footer = () => {
         <section className="flex flex-col justify-between">
           <h1 className="text-lg font-bold text-white">スタディーモンスター</h1>
           <p className="text-sm text-gray-500 mt-4 md:mt-0">
-            © 2025 My App. All rights reserved.
+            © Suma341
           </p>
         </section>
       </div>

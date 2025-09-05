@@ -18,10 +18,9 @@ export default function DeleteAccountPage() {
             <section className="mb-8">
                 <h2 className="text-xl font-semibold mb-2">削除されるデータ</h2>
                 <ul className="list-disc list-inside space-y-1">
-                <li>登録情報（メールアドレスなど）</li>
-                <li>勉強履歴</li>
-                <li>モンスターの成長データ</li>
-                <li>ランキング情報</li>
+                    <li>登録情報（メールアドレスなど）</li>
+                    <li>勉強履歴</li>
+                    <li>モンスターの成長データ</li>
                 </ul>
                 <p className="mt-2 text-red-600 font-medium">
                 ※一度削除されたデータは復元できません。
@@ -31,7 +30,7 @@ export default function DeleteAccountPage() {
             <section className="mb-8">
                 <h2 className="text-xl font-semibold mb-2">削除できないデータ</h2>
                 <p>
-                法令に基づき一定期間保存が必要なログ情報を除き、すべてのデータが削除されます。
+                    法令に基づき一定期間保存が必要なログ情報を除き、すべてのデータが削除されます。
                 </p>
             </section>
 
