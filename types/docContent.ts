@@ -1,4 +1,4 @@
 export type DocContent={
-    text:string;
+    text:string
     title?:string
 }
