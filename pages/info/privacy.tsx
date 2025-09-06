@@ -45,7 +45,7 @@ const PrivacyPage=()=>{
     return (
         <Layout>
             <div className="max-w-3xl mx-auto px-6 py-20">
-                <h1 className="text-3xl font-bold text-slate-950">プライバシーポリシー</h1>
+                <h1 className="text-3xl font-bold text-slate-950 my-3">プライバシーポリシー</h1>
                 {privacy.map((p,i)=><Section text={p.text} title={p.title} key={i} />)}
             </div>
         </Layout>
